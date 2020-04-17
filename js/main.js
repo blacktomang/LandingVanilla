@@ -5,7 +5,8 @@ const time = document.getElementById('time'),
 
 //show time
 function showTime() {
-	let today = new Date(),
+	// let today = new Date(),
+		let today = new Date('1995-12-17T03:24:00'),
 		hours = today.getHours(),
 		min = today.getMinutes(),
 		sec = today.getSeconds();
@@ -27,16 +28,17 @@ function addZero(n) {
 
 //display Image
 function greeT(){
-	let today = new Date(),
+	// let today = new Date(),
+	let today = new Date('1995-12-17T03:24:00'),
 		hours = today.getHours();
 
 	if (hours < 12) {
 		//morning
-		document.body.style.backgroundImage = "url(../img/morning.jpg)";
+		document.body.style.backgroundImage = "url(/img/morning.jpg)";
 		greeting.textContent = 'Good Morning';
 	} else if(hours < 18){
 		//afternoon
-		document.body.style.backgroundImage = "url(../img/afternoon.jpg)";
+		document.body.style.backgroundImage = "url(/img/afternoon.jpg)";
 		greeting.textContent = 'Good Afternoon';
 	}else{
 		//evening
