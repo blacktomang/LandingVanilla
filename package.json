@@ -1,0 +1,11 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "It's My First Vanilla Js App",
+  "main": "index.js",
+  "scripts": {
+    "test": "node try.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
